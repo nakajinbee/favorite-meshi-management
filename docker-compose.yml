@@ -1,0 +1,6 @@
+services:
+  app: # => サービス名は任意
+    build: ./infra/php
+    volumes:
+      - ./src:/data
+
